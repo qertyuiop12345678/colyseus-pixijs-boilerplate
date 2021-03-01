@@ -5,7 +5,7 @@ import { State } from "../server/rooms/State";
 
 const ENDPOINT = (process.env.NODE_ENV==="development")
     ? "ws://localhost:8080"
-    : "wss://colyseus-pixijs-boilerplate.herokuapp.com";
+    : "wss://rogario.herokuapp.com/";
 
 const WORLD_SIZE = 2000;
 
