@@ -38,7 +38,7 @@ export class Application extends PIXI.Application {
         // draw boundaries of the world
         const boundaries = new PIXI.Graphics();
         boundaries.beginFill(0x000000);
-        boundaries.drawRoundedRect(0, 0, WORLD_SIZE, WORLD_SIZE, 30);
+        boundaries.drawRoundedRect(0, 0, WORLD_SIZE, WORLD_SIZE, 0);
         this.viewport.addChild(boundaries);
 
         // add viewport to stage
